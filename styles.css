@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 * {
     margin: 0;
     padding: 0;
@@ -63,70 +63,4 @@ p {
 #error {
     color: red;
     display: none;
-=======
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    width: 100%;
-    height: 100vh;
-    background-color: #000000;
-    color: #ffffff;
-    font-family: sans-serif;
-}
-
-.container {
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 800px;
-}
-
-h1 {
-    font-size: 4rem;
-    padding: 5px;
-}
-
-p {
-    font-size: 20px;
-    padding: 5px;
-}
-
-.buttons {
-    display: flex;
-    gap: 20px;
-    
-}
-
-#increment, #decrement {
-    background-color: #ffffff;
-    padding: 10px 20px;
-    color: #000000;
-    border: none;
-    cursor: pointer;
-}
-
-#decrement:disabled {
-    background-color: grey;
-    cursor: not-allowed;
-}
-
-#clear {
-    background-color: #000000;
-    padding: 10px 25px;
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    cursor: pointer;
-}
-
-
-
-#error {
-    color: red;
-    display: none;
->>>>>>> af53874f3c00af957cc055f7d3395a974528cb39
 }
